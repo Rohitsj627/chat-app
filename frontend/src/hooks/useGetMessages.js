@@ -27,3 +27,5 @@ export const useGetMessages = (selectedConversation) => {
 
   return { messages, loading };
 };
+
+export default useGetMessages
